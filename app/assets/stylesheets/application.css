@@ -13,3 +13,20 @@
  *= require_tree .
  *= require_self
  */
+
+.link_to {
+  margin-bottom: 10px;
+}
+
+
+#restaurants {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.item {
+  align-self: auto;
+}
+
+.new-link {
+  margin-top: 80px;
+}
